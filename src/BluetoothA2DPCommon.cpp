@@ -319,6 +319,8 @@ void BluetoothA2DPCommon::set_scan_mode_connectable(bool connectable) {
 
 #include "BluetoothA2DPCommon.h"
 
+#include "esp_timer.h"
+
 /**
  * @brief Startup logic as implemented by Arduino - This is not available if we use this library outside of Arduino
  * 
